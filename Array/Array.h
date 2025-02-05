@@ -1,13 +1,13 @@
 #pragma once
 
-
-template <typename Arr>
+template <typename datatype>
 class Array {
 public:
     int size;
-    explicit Array(int n);
+    explicit Array(int size);
     ~Array();
+    datatype value_at(int index);
+    void asign(int index, datatype data);
 private:
-    Arr *A;
+    datatype* arr;
 };
-
