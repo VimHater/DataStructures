@@ -1,5 +1,14 @@
-//
-// Created by Admin on 2/5/2025.
-//
-
 #include "Array.h"
+
+template<typename Arr>
+Array<Arr>::Array(int n) {
+    size = n;
+    A = new Arr[size];
+}
+
+template<typename Arr>
+Array<Arr>::~Array() {
+    delete[] A;
+}
+
+

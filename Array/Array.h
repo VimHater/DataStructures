@@ -1,16 +1,13 @@
-//
-// Created by Admin on 2/5/2025.
-//
-
-#ifndef ARRAY_H
-#define ARRAY_H
+#pragma once
 
 
-
+template <typename Arr>
 class Array {
-
+public:
+    int size;
+    explicit Array(int n);
+    ~Array();
+private:
+    Arr *A;
 };
 
-
-
-#endif //ARRAY_H
