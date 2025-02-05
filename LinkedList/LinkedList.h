@@ -1,16 +1,13 @@
-//
-// Created by Admin on 2/5/2025.
-//
+#pragma once
+#include <Node.h>
+#include <string>
 
-#ifndef LINKEDLIST_H
-#define LINKEDLIST_H
-
-
-
+template<typename datatype>
 class LinkedList {
-
+public:
+    LinkedList<datatype>();
+    ~LinkedList<datatype>();
+private:
+    Node<datatype> *Head;
 };
 
-
-
-#endif //LINKEDLIST_H

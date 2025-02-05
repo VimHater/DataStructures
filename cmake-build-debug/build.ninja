@@ -70,6 +70,13 @@ build CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\DataStructures.dir
   OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\LinkedList
 
+build CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.obj: CXX_COMPILER__DataStructures_unscanned_Debug C$:/Users/Admin/CLionProjects/DataStructures/LinkedList/Node.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\LinkedList\Node.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Admin/CLionProjects/DataStructures/Array -IC:/Users/Admin/CLionProjects/DataStructures/LinkedList -IC:/Users/Admin/CLionProjects/DataStructures/Queue -IC:/Users/Admin/CLionProjects/DataStructures/Stack -IC:/Users/Admin/CLionProjects/DataStructures/Tree
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\LinkedList
+
 build CMakeFiles/DataStructures.dir/Queue/Queue.cpp.obj: CXX_COMPILER__DataStructures_unscanned_Debug C$:/Users/Admin/CLionProjects/DataStructures/Queue/Queue.cpp || cmake_object_order_depends_target_DataStructures
   DEP_FILE = CMakeFiles\DataStructures.dir\Queue\Queue.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
@@ -99,7 +106,7 @@ build CMakeFiles/DataStructures.dir/Tree/Tree.cpp.obj: CXX_COMPILER__DataStructu
 #############################################
 # Link the executable DataStructures.exe
 
-build DataStructures.exe: CXX_EXECUTABLE_LINKER__DataStructures_Debug CMakeFiles/DataStructures.dir/main.cpp.obj CMakeFiles/DataStructures.dir/Array/Array.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.obj CMakeFiles/DataStructures.dir/Queue/Queue.cpp.obj CMakeFiles/DataStructures.dir/Stack/Stack.cpp.obj CMakeFiles/DataStructures.dir/Tree/Tree.cpp.obj
+build DataStructures.exe: CXX_EXECUTABLE_LINKER__DataStructures_Debug CMakeFiles/DataStructures.dir/main.cpp.obj CMakeFiles/DataStructures.dir/Array/Array.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.obj CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.obj CMakeFiles/DataStructures.dir/Queue/Queue.cpp.obj CMakeFiles/DataStructures.dir/Stack/Stack.cpp.obj CMakeFiles/DataStructures.dir/Tree/Tree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DataStructures.dir
