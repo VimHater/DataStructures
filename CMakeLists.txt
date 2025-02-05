@@ -3,4 +3,6 @@ project(DataStructures)
 
 set(CMAKE_CXX_STANDARD 20)
 
+include_directories(Array LinkedList Queue Stack Tree)
+
 add_executable(DataStructures main.cpp)
