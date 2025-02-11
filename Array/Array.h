@@ -1,13 +1,17 @@
 #pragma once
-
+#include <cstddef>
 template <typename datatype>
 class Array {
 public:
-    int size;
-    explicit Array(int size);
+    size_t size;
+    Array(size_t len);
     ~Array();
-    datatype value_at(int index);
-    void asign(int index, datatype data);
+    Array *Arrcpy(Array &old);
+    datatype &at(unsigned index);
+    void fill(datatype filler);
+    void del(unsigned index);
+    size_t getsize();
+    void print();
 private:
-    datatype* arr;
+    datatype *data;
 };
