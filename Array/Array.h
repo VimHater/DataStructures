@@ -1,5 +1,7 @@
 #pragma once
 #include <cstddef>
+#include <iostream>
+#include <string>
 
 template <typename datatype>
 class Array {

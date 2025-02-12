@@ -1,5 +1,4 @@
 #include "Array2D.h"
-#include<string>
 
 using std::string;
 
@@ -29,7 +28,7 @@ void ::Array2D<datatype>::fill(datatype filler) {
 
 template<typename datatype>
 datatype& Array2D<datatype>::at(unsigned row_index, unsigned col_index) {
-    if (row_index > rows || col_index > cols) {
+    if (row_index >= rows || col_index >= cols) {
         throw std::out_of_range("Index out of range");
     }
     return data[row_index][col_index];

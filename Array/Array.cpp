@@ -1,8 +1,5 @@
 #include "Array.h"
-#include <iostream>
-#include <string>
 using std::string;
-
 
 template <typename datatype>
 Array<datatype>::Array(size_t len) {

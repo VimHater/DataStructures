@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <cstddef>
+#include<string>
 
 template <typename datatype>
 class Array2D {
