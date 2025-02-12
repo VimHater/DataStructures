@@ -7,10 +7,7 @@ using std::string;
 template <typename datatype>
 Array<datatype>::Array(size_t len) {
     size = len;
-    data = new datatype[size];
-    for (size_t i=0; i<size; i++) {
-        data[i] = (datatype)0;
-    }
+    data = new datatype[size]();
 }
 
 template <typename datatype>
@@ -23,7 +20,7 @@ datatype& Array<datatype>::at(unsigned index) {
     if (index >= size) {
         throw std::out_of_range("Index out of range");
     }
-    return data[index]; // Return a reference to the element
+    return data[index];
 }
 
 template<typename datatype>
@@ -53,10 +50,19 @@ template<typename datatype>
 void Array<datatype>::print() {
     std::cout << "[";
     for (size_t i=0; i<size - 1; i++) {
-        std::cout << data[i] << ", ";
+        std::cout << data[i] << " ";
     }
     std::cout << data[size - 1];
     std::cout << "]";
+}
+
+template<typename datatype>
+Array<datatype> Array<datatype>::Clone() {
+    Array newArray(size);
+    for (size_t i=0; i<size; i++) {
+        newArray.data[i] = data[i];
+    }
+    return newArray;
 }
 
 

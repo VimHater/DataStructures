@@ -5,4 +5,28 @@ set(CMAKE_CXX_STANDARD 20)
 
 include_directories(Array LinkedList Queue Stack Tree)
 
-add_executable(DataStructures main.cpp Array/Array.cpp LinkedList/LinkedList.cpp LinkedList/Node.cpp Queue/Queue.cpp Stack/Stack.cpp Tree/Tree.cpp)
+add_executable(DataStructures
+        main.cpp
+
+        Array/Array.h
+        Array/Array.cpp
+
+        Array/Array2D.h
+        Array/Array2D.cpp
+
+        LinkedList/LinkedList.h
+        LinkedList/LinkedList.cpp
+
+        LinkedList/Node.h
+        LinkedList/Node.cpp
+
+        Queue/Queue.h
+        Queue/Queue.cpp
+
+        Stack/Stack.h
+        Stack/Stack.cpp
+
+        Tree/Tree.h
+        Tree/Tree.cpp
+
+)

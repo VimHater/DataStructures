@@ -1,9 +1,8 @@
 #include <iostream>
 #include "Array/Array.h"
-
+#include "Array/Array2D.h"
 int main() {
-    Array<int> data(10);
+    Array2D<int> data(10, 10);
     data.fill(10);
-    std::cout << data.at(9);
     data.print();
 }

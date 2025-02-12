@@ -1,12 +1,12 @@
 #pragma once
 #include <cstddef>
+
 template <typename datatype>
 class Array {
 public:
-    size_t size;
     Array(size_t len);
     ~Array();
-    Array *Arrcpy(Array &old);
+    Array Clone();
     datatype &at(unsigned index);
     void fill(datatype filler);
     void del(unsigned index);
@@ -14,4 +14,5 @@ public:
     void print();
 private:
     datatype *data;
+    size_t size;
 };

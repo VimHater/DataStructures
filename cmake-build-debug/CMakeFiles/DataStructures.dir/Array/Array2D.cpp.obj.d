@@ -1,5 +1,6 @@
-CMakeFiles/DataStructures.dir/main.cpp.obj: \
- C:\Users\khoanguyen\DataStructures\main.cpp \
+CMakeFiles/DataStructures.dir/Array/Array2D.cpp.obj: \
+ C:\Users\khoanguyen\DataStructures\Array\Array2D.cpp \
+ C:\Users\khoanguyen\DataStructures\Array\Array2D.h \
  C:/Users/khoanguyen/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Users/khoanguyen/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Users/khoanguyen/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -149,6 +150,4 @@ CMakeFiles/DataStructures.dir/main.cpp.obj: \
  C:/Users/khoanguyen/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
  C:/Users/khoanguyen/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Users/khoanguyen/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
- C:/Users/khoanguyen/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
- C:\Users\khoanguyen\DataStructures\Array/Array.h \
- C:\Users\khoanguyen\DataStructures\Array/Array2D.h
+ C:/Users/khoanguyen/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc

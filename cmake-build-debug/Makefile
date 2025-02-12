@@ -152,6 +152,30 @@ Array/Array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/Array/Array.cpp.s
 .PHONY : Array/Array.cpp.s
 
+Array/Array2D.obj: Array/Array2D.cpp.obj
+.PHONY : Array/Array2D.obj
+
+# target to build an object file
+Array/Array2D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/Array/Array2D.cpp.obj
+.PHONY : Array/Array2D.cpp.obj
+
+Array/Array2D.i: Array/Array2D.cpp.i
+.PHONY : Array/Array2D.i
+
+# target to preprocess a source file
+Array/Array2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/Array/Array2D.cpp.i
+.PHONY : Array/Array2D.cpp.i
+
+Array/Array2D.s: Array/Array2D.cpp.s
+.PHONY : Array/Array2D.s
+
+# target to generate assembly for a file
+Array/Array2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/Array/Array2D.cpp.s
+.PHONY : Array/Array2D.cpp.s
+
 LinkedList/LinkedList.obj: LinkedList/LinkedList.cpp.obj
 .PHONY : LinkedList/LinkedList.obj
 
@@ -308,6 +332,9 @@ help:
 	@echo ... Array/Array.obj
 	@echo ... Array/Array.i
 	@echo ... Array/Array.s
+	@echo ... Array/Array2D.obj
+	@echo ... Array/Array2D.i
+	@echo ... Array/Array2D.s
 	@echo ... LinkedList/LinkedList.obj
 	@echo ... LinkedList/LinkedList.i
 	@echo ... LinkedList/LinkedList.s
