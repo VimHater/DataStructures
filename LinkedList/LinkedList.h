@@ -1,13 +1,7 @@
 #pragma once
-#include <Node.h>
-#include <string>
+#include "Node.h"
 
 template<typename datatype>
 class LinkedList {
-public:
-    LinkedList<datatype>();
-    ~LinkedList<datatype>();
-private:
-    Node<datatype> *Head;
+    Node<datatype> *head;
 };
-

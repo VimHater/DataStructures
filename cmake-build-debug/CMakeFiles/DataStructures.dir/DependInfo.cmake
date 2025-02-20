@@ -8,14 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/khoanguyen/DataStructures/Array/Array.cpp" "CMakeFiles/DataStructures.dir/Array/Array.cpp.obj" "gcc" "CMakeFiles/DataStructures.dir/Array/Array.cpp.obj.d"
-  "C:/Users/khoanguyen/DataStructures/Array/Array2D.cpp" "CMakeFiles/DataStructures.dir/Array/Array2D.cpp.obj" "gcc" "CMakeFiles/DataStructures.dir/Array/Array2D.cpp.obj.d"
-  "C:/Users/khoanguyen/DataStructures/LinkedList/LinkedList.cpp" "CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.obj" "gcc" "CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.obj.d"
-  "C:/Users/khoanguyen/DataStructures/LinkedList/Node.cpp" "CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.obj" "gcc" "CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.obj.d"
-  "C:/Users/khoanguyen/DataStructures/Queue/Queue.cpp" "CMakeFiles/DataStructures.dir/Queue/Queue.cpp.obj" "gcc" "CMakeFiles/DataStructures.dir/Queue/Queue.cpp.obj.d"
-  "C:/Users/khoanguyen/DataStructures/Stack/Stack.cpp" "CMakeFiles/DataStructures.dir/Stack/Stack.cpp.obj" "gcc" "CMakeFiles/DataStructures.dir/Stack/Stack.cpp.obj.d"
-  "C:/Users/khoanguyen/DataStructures/Tree/Tree.cpp" "CMakeFiles/DataStructures.dir/Tree/Tree.cpp.obj" "gcc" "CMakeFiles/DataStructures.dir/Tree/Tree.cpp.obj.d"
-  "C:/Users/khoanguyen/DataStructures/main.cpp" "CMakeFiles/DataStructures.dir/main.cpp.obj" "gcc" "CMakeFiles/DataStructures.dir/main.cpp.obj.d"
+  "/home/khoanguyen/DataStructures/Array/Array.cpp" "CMakeFiles/DataStructures.dir/Array/Array.cpp.o" "gcc" "CMakeFiles/DataStructures.dir/Array/Array.cpp.o.d"
+  "/home/khoanguyen/DataStructures/Array/Array2D.cpp" "CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o" "gcc" "CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o.d"
+  "/home/khoanguyen/DataStructures/LinkedList/LinkedList.cpp" "CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o" "gcc" "CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o.d"
+  "/home/khoanguyen/DataStructures/LinkedList/Node.cpp" "CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o" "gcc" "CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o.d"
+  "/home/khoanguyen/DataStructures/Queue/Queue.cpp" "CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o" "gcc" "CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o.d"
+  "/home/khoanguyen/DataStructures/Stack/Stack.cpp" "CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o" "gcc" "CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o.d"
+  "/home/khoanguyen/DataStructures/Tree/Tree.cpp" "CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o" "gcc" "CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o.d"
+  "/home/khoanguyen/DataStructures/main.cpp" "CMakeFiles/DataStructures.dir/main.cpp.o" "gcc" "CMakeFiles/DataStructures.dir/main.cpp.o.d"
+  "" "DataStructures" "gcc" "CMakeFiles/DataStructures.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
