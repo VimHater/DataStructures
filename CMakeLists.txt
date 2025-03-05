@@ -17,9 +17,6 @@ add_executable(DataStructures
         LinkedList/LinkedList.h
         LinkedList/LinkedList.cpp
 
-        LinkedList/Node.h
-        LinkedList/Node.cpp
-
         Queue/Queue.h
         Queue/Queue.cpp
 
