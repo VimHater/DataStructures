@@ -4,7 +4,7 @@
 template <typename datatype>
 struct node {
     datatype data;
-    datatype *next;
+    node<datatype> *next;
 };
 
 template <typename datatype>
@@ -21,4 +21,5 @@ class Linked_list {
 
    private:
     node<datatype> *head;
+    size_t size;
 };
