@@ -21,5 +21,4 @@ class Linked_list {
 
    private:
     node<datatype> *head;
-    size_t size;
 };

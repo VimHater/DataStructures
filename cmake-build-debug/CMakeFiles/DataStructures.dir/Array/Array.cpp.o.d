@@ -1,6 +1,6 @@
 CMakeFiles/DataStructures.dir/Array/Array.cpp.o: \
- /home/khoanguyen/DataStructures/Array/Array.cpp \
- /usr/include/stdc-predef.h /home/khoanguyen/DataStructures/Array/Array.h \
+ /home/shared/DataStructures/Array/Array.cpp /usr/include/stdc-predef.h \
+ /home/shared/DataStructures/Array/Array.h \
  /usr/include/c++/14.2.1/cstddef \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \

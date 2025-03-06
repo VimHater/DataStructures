@@ -6,7 +6,6 @@ DataStructures: \
   CMakeFiles/DataStructures.dir/Array/Array.cpp.o \
   CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o \
   CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o \
-  CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o \
   CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o \
   CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o \
   CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o \
@@ -51,8 +50,6 @@ CMakeFiles/DataStructures.dir/Array/Array.cpp.o:
 CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o:
 
 CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o:
-
-CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o:
 
 CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o:
 

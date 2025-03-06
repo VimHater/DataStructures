@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/khoanguyen/DataStructures/Array -I/home/khoanguyen/DataStructures/LinkedList -I/home/khoanguyen/DataStructures/Queue -I/home/khoanguyen/DataStructures/Stack -I/home/khoanguyen/DataStructures/Tree
+CXX_INCLUDES = -I/home/shared/DataStructures/Array -I/home/shared/DataStructures/LinkedList -I/home/shared/DataStructures/Queue -I/home/shared/DataStructures/Stack -I/home/shared/DataStructures/Tree
 
-CXX_FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+CXX_FLAGS = -std=gnu++20
 

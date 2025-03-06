@@ -19,11 +19,13 @@ Linked_list<datatype>::~Linked_list() {
 template <typename datatype>
 void Linked_list<datatype>::print() {
     node<datatype> *current = head;
+    std::cout << "[";
     while (current != nullptr) {
         node<datatype> *newnode = current->next;
         std::cout << current->data << ", " << std::flush;
         current = newnode;
     }
+    std::cout << "]";
 }
 
 template <typename datatype>
@@ -55,6 +57,12 @@ template <typename datatype>
 void Linked_list<datatype>::insert_at(int position, datatype this_data) {}
 template <typename datatype>
 std::size_t Linked_list<datatype>::getsize() {
+    node<datatype> *current = head;
+    size_t size;
+    while (current != nullptr) {
+        size++;
+        current = current->next;
+    }
     return size;
 }
 template class Linked_list<int>;

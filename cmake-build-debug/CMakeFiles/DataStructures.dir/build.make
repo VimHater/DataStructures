@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khoanguyen/DataStructures
+CMAKE_SOURCE_DIR = /home/shared/DataStructures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khoanguyen/DataStructures/cmake-build-debug
+CMAKE_BINARY_DIR = /home/shared/DataStructures/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DataStructures.dir/depend.make
@@ -73,116 +73,102 @@ CMakeFiles/DataStructures.dir/codegen:
 .PHONY : CMakeFiles/DataStructures.dir/codegen
 
 CMakeFiles/DataStructures.dir/main.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/main.cpp.o: /home/khoanguyen/DataStructures/main.cpp
+CMakeFiles/DataStructures.dir/main.cpp.o: /home/shared/DataStructures/main.cpp
 CMakeFiles/DataStructures.dir/main.cpp.o: CMakeFiles/DataStructures.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoanguyen/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructures.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/main.cpp.o -MF CMakeFiles/DataStructures.dir/main.cpp.o.d -o CMakeFiles/DataStructures.dir/main.cpp.o -c /home/khoanguyen/DataStructures/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shared/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructures.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/main.cpp.o -MF CMakeFiles/DataStructures.dir/main.cpp.o.d -o CMakeFiles/DataStructures.dir/main.cpp.o -c /home/shared/DataStructures/main.cpp
 
 CMakeFiles/DataStructures.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khoanguyen/DataStructures/main.cpp > CMakeFiles/DataStructures.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shared/DataStructures/main.cpp > CMakeFiles/DataStructures.dir/main.cpp.i
 
 CMakeFiles/DataStructures.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khoanguyen/DataStructures/main.cpp -o CMakeFiles/DataStructures.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shared/DataStructures/main.cpp -o CMakeFiles/DataStructures.dir/main.cpp.s
 
 CMakeFiles/DataStructures.dir/Array/Array.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/Array/Array.cpp.o: /home/khoanguyen/DataStructures/Array/Array.cpp
+CMakeFiles/DataStructures.dir/Array/Array.cpp.o: /home/shared/DataStructures/Array/Array.cpp
 CMakeFiles/DataStructures.dir/Array/Array.cpp.o: CMakeFiles/DataStructures.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoanguyen/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructures.dir/Array/Array.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/Array/Array.cpp.o -MF CMakeFiles/DataStructures.dir/Array/Array.cpp.o.d -o CMakeFiles/DataStructures.dir/Array/Array.cpp.o -c /home/khoanguyen/DataStructures/Array/Array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shared/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructures.dir/Array/Array.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/Array/Array.cpp.o -MF CMakeFiles/DataStructures.dir/Array/Array.cpp.o.d -o CMakeFiles/DataStructures.dir/Array/Array.cpp.o -c /home/shared/DataStructures/Array/Array.cpp
 
 CMakeFiles/DataStructures.dir/Array/Array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/Array/Array.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khoanguyen/DataStructures/Array/Array.cpp > CMakeFiles/DataStructures.dir/Array/Array.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shared/DataStructures/Array/Array.cpp > CMakeFiles/DataStructures.dir/Array/Array.cpp.i
 
 CMakeFiles/DataStructures.dir/Array/Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/Array/Array.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khoanguyen/DataStructures/Array/Array.cpp -o CMakeFiles/DataStructures.dir/Array/Array.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shared/DataStructures/Array/Array.cpp -o CMakeFiles/DataStructures.dir/Array/Array.cpp.s
 
 CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o: /home/khoanguyen/DataStructures/Array/Array2D.cpp
+CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o: /home/shared/DataStructures/Array/Array2D.cpp
 CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o: CMakeFiles/DataStructures.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoanguyen/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o -MF CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o.d -o CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o -c /home/khoanguyen/DataStructures/Array/Array2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shared/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o -MF CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o.d -o CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o -c /home/shared/DataStructures/Array/Array2D.cpp
 
 CMakeFiles/DataStructures.dir/Array/Array2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/Array/Array2D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khoanguyen/DataStructures/Array/Array2D.cpp > CMakeFiles/DataStructures.dir/Array/Array2D.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shared/DataStructures/Array/Array2D.cpp > CMakeFiles/DataStructures.dir/Array/Array2D.cpp.i
 
 CMakeFiles/DataStructures.dir/Array/Array2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/Array/Array2D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khoanguyen/DataStructures/Array/Array2D.cpp -o CMakeFiles/DataStructures.dir/Array/Array2D.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shared/DataStructures/Array/Array2D.cpp -o CMakeFiles/DataStructures.dir/Array/Array2D.cpp.s
 
 CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o: /home/khoanguyen/DataStructures/LinkedList/LinkedList.cpp
+CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o: /home/shared/DataStructures/LinkedList/LinkedList.cpp
 CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o: CMakeFiles/DataStructures.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoanguyen/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o -MF CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o.d -o CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o -c /home/khoanguyen/DataStructures/LinkedList/LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shared/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o -MF CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o.d -o CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o -c /home/shared/DataStructures/LinkedList/LinkedList.cpp
 
 CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khoanguyen/DataStructures/LinkedList/LinkedList.cpp > CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shared/DataStructures/LinkedList/LinkedList.cpp > CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.i
 
 CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khoanguyen/DataStructures/LinkedList/LinkedList.cpp -o CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.s
-
-CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o: /home/khoanguyen/DataStructures/LinkedList/Node.cpp
-CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o: CMakeFiles/DataStructures.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoanguyen/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o -MF CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o.d -o CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o -c /home/khoanguyen/DataStructures/LinkedList/Node.cpp
-
-CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khoanguyen/DataStructures/LinkedList/Node.cpp > CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.i
-
-CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khoanguyen/DataStructures/LinkedList/Node.cpp -o CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shared/DataStructures/LinkedList/LinkedList.cpp -o CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.s
 
 CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o: /home/khoanguyen/DataStructures/Queue/Queue.cpp
+CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o: /home/shared/DataStructures/Queue/Queue.cpp
 CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o: CMakeFiles/DataStructures.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoanguyen/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o -MF CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o.d -o CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o -c /home/khoanguyen/DataStructures/Queue/Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shared/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o -MF CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o.d -o CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o -c /home/shared/DataStructures/Queue/Queue.cpp
 
 CMakeFiles/DataStructures.dir/Queue/Queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/Queue/Queue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khoanguyen/DataStructures/Queue/Queue.cpp > CMakeFiles/DataStructures.dir/Queue/Queue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shared/DataStructures/Queue/Queue.cpp > CMakeFiles/DataStructures.dir/Queue/Queue.cpp.i
 
 CMakeFiles/DataStructures.dir/Queue/Queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/Queue/Queue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khoanguyen/DataStructures/Queue/Queue.cpp -o CMakeFiles/DataStructures.dir/Queue/Queue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shared/DataStructures/Queue/Queue.cpp -o CMakeFiles/DataStructures.dir/Queue/Queue.cpp.s
 
 CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o: /home/khoanguyen/DataStructures/Stack/Stack.cpp
+CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o: /home/shared/DataStructures/Stack/Stack.cpp
 CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o: CMakeFiles/DataStructures.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoanguyen/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o -MF CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o.d -o CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o -c /home/khoanguyen/DataStructures/Stack/Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shared/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o -MF CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o.d -o CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o -c /home/shared/DataStructures/Stack/Stack.cpp
 
 CMakeFiles/DataStructures.dir/Stack/Stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/Stack/Stack.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khoanguyen/DataStructures/Stack/Stack.cpp > CMakeFiles/DataStructures.dir/Stack/Stack.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shared/DataStructures/Stack/Stack.cpp > CMakeFiles/DataStructures.dir/Stack/Stack.cpp.i
 
 CMakeFiles/DataStructures.dir/Stack/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/Stack/Stack.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khoanguyen/DataStructures/Stack/Stack.cpp -o CMakeFiles/DataStructures.dir/Stack/Stack.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shared/DataStructures/Stack/Stack.cpp -o CMakeFiles/DataStructures.dir/Stack/Stack.cpp.s
 
 CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o: /home/khoanguyen/DataStructures/Tree/Tree.cpp
+CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o: /home/shared/DataStructures/Tree/Tree.cpp
 CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o: CMakeFiles/DataStructures.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/khoanguyen/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o -MF CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o.d -o CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o -c /home/khoanguyen/DataStructures/Tree/Tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shared/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o -MF CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o.d -o CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o -c /home/shared/DataStructures/Tree/Tree.cpp
 
 CMakeFiles/DataStructures.dir/Tree/Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/Tree/Tree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khoanguyen/DataStructures/Tree/Tree.cpp > CMakeFiles/DataStructures.dir/Tree/Tree.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shared/DataStructures/Tree/Tree.cpp > CMakeFiles/DataStructures.dir/Tree/Tree.cpp.i
 
 CMakeFiles/DataStructures.dir/Tree/Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/Tree/Tree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khoanguyen/DataStructures/Tree/Tree.cpp -o CMakeFiles/DataStructures.dir/Tree/Tree.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shared/DataStructures/Tree/Tree.cpp -o CMakeFiles/DataStructures.dir/Tree/Tree.cpp.s
 
 # Object files for target DataStructures
 DataStructures_OBJECTS = \
@@ -190,7 +176,6 @@ DataStructures_OBJECTS = \
 "CMakeFiles/DataStructures.dir/Array/Array.cpp.o" \
 "CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o" \
 "CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o" \
-"CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o" \
 "CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o" \
 "CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o" \
 "CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o"
@@ -202,14 +187,13 @@ DataStructures: CMakeFiles/DataStructures.dir/main.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/Array/Array.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o
-DataStructures: CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/build.make
 DataStructures: CMakeFiles/DataStructures.dir/compiler_depend.ts
 DataStructures: CMakeFiles/DataStructures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/khoanguyen/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable DataStructures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shared/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable DataStructures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataStructures.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -221,6 +205,6 @@ CMakeFiles/DataStructures.dir/clean:
 .PHONY : CMakeFiles/DataStructures.dir/clean
 
 CMakeFiles/DataStructures.dir/depend:
-	cd /home/khoanguyen/DataStructures/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/khoanguyen/DataStructures /home/khoanguyen/DataStructures /home/khoanguyen/DataStructures/cmake-build-debug /home/khoanguyen/DataStructures/cmake-build-debug /home/khoanguyen/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/shared/DataStructures/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shared/DataStructures /home/shared/DataStructures /home/shared/DataStructures/cmake-build-debug /home/shared/DataStructures/cmake-build-debug /home/shared/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/DataStructures.dir/depend
 

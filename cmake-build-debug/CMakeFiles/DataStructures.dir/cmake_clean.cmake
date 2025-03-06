@@ -6,8 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o.d"
   "CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o"
   "CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.o.d"
-  "CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o"
-  "CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o.d"
   "CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o"
   "CMakeFiles/DataStructures.dir/Queue/Queue.cpp.o.d"
   "CMakeFiles/DataStructures.dir/Stack/Stack.cpp.o"

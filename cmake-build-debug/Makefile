@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khoanguyen/DataStructures
+CMAKE_SOURCE_DIR = /home/shared/DataStructures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khoanguyen/DataStructures/cmake-build-debug
+CMAKE_BINARY_DIR = /home/shared/DataStructures/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khoanguyen/DataStructures/cmake-build-debug/CMakeFiles /home/khoanguyen/DataStructures/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shared/DataStructures/cmake-build-debug/CMakeFiles /home/shared/DataStructures/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khoanguyen/DataStructures/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shared/DataStructures/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -200,30 +200,6 @@ LinkedList/LinkedList.s: LinkedList/LinkedList.cpp.s
 LinkedList/LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/LinkedList/LinkedList.cpp.s
 .PHONY : LinkedList/LinkedList.cpp.s
-
-LinkedList/Node.o: LinkedList/Node.cpp.o
-.PHONY : LinkedList/Node.o
-
-# target to build an object file
-LinkedList/Node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.o
-.PHONY : LinkedList/Node.cpp.o
-
-LinkedList/Node.i: LinkedList/Node.cpp.i
-.PHONY : LinkedList/Node.i
-
-# target to preprocess a source file
-LinkedList/Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.i
-.PHONY : LinkedList/Node.cpp.i
-
-LinkedList/Node.s: LinkedList/Node.cpp.s
-.PHONY : LinkedList/Node.s
-
-# target to generate assembly for a file
-LinkedList/Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/LinkedList/Node.cpp.s
-.PHONY : LinkedList/Node.cpp.s
 
 Queue/Queue.o: Queue/Queue.cpp.o
 .PHONY : Queue/Queue.o
@@ -339,9 +315,6 @@ help:
 	@echo "... LinkedList/LinkedList.o"
 	@echo "... LinkedList/LinkedList.i"
 	@echo "... LinkedList/LinkedList.s"
-	@echo "... LinkedList/Node.o"
-	@echo "... LinkedList/Node.i"
-	@echo "... LinkedList/Node.s"
 	@echo "... Queue/Queue.o"
 	@echo "... Queue/Queue.i"
 	@echo "... Queue/Queue.s"

@@ -1,5 +1,5 @@
 CMakeFiles/DataStructures.dir/main.cpp.o: \
- /home/khoanguyen/DataStructures/main.cpp /usr/include/stdc-predef.h \
+ /home/shared/DataStructures/main.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -149,5 +149,5 @@ CMakeFiles/DataStructures.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/bits/istream.tcc \
- /home/khoanguyen/DataStructures/Array/Array.h \
- /home/khoanguyen/DataStructures/Array/Array2D.h
+ /home/shared/DataStructures/Array/Array.h \
+ /home/shared/DataStructures/Array/Array2D.h
