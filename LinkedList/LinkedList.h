@@ -25,10 +25,10 @@ class Linked_list {
 };
 
 template <typename datatype>
-class Linked_list_with_tail {
+class Double_linked_list {
    public:
-    Linked_list_with_tail();
-    ~Linked_list_with_tail();
+    Double_linked_list();
+    ~Double_linked_list();
     void append(datatype data);
     void push_front(datatype data);
     std::size_t getsize;
