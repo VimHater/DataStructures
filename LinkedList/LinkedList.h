@@ -5,7 +5,6 @@ template <typename datatype>
 struct Node {
     datatype data;
     Node<datatype> *next;
-    Node<datatype> *prev;
 };
 
 template <typename datatype>
@@ -25,10 +24,10 @@ class Linked_list {
 };
 
 template <typename datatype>
-class Double_linked_list {
+class Linked_list_with_tail {
    public:
-    Double_linked_list();
-    ~Double_linked_list();
+    Linked_list_with_tail();
+    ~Linked_list_with_tail();
     void append(datatype data);
     void push_front(datatype data);
     std::size_t getsize;

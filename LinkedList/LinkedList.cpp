@@ -73,62 +73,6 @@ tem void Linked_list<datatype>::insert_at(int position, datatype this_data) {
     }
 }
 
-tem Double_linked_list<datatype>::Double_linked_list() : head(nullptr), tail(nullptr), size(0) {}
-
-tem Double_linked_list<datatype>::~Double_linked_list() {
-    if (size == 0) {
-        delete head;
-        delete tail;
-    } else {
-        Node<datatype> *front = head;
-        Node<datatype> *back = tail;
-        while (front && back && front != back->next) {
-            Node<datatype> *nextFront = front->next;
-            Node<datatype> *prevBack = back->prev;
-            if (front == back) {
-                delete front;
-                break;
-            }
-
-            delete front;
-            delete back;
-
-            front = nextFront;
-            back = prevBack;
-        }
-
-        head = tail = nullptr;
-    }
-}
-
-tem void Double_linked_list<datatype>::insert_at(int position,
-                                                    datatype this_data) {}
-
-tem void Double_linked_list<datatype>::push_front(datatype data) {
-    Node<datatype> *newNode = new Node<datatype>;
-    newNode->data = data;
-    newNode->next = head;
-    head = newNode;
-    size++;
-}
-
-tem void Double_linked_list<datatype>::append(datatype data) {
-    Node<datatype> *newNode = new Node<datatype>;
-    newNode->data = data;
-    newNode->next = tail;
-    tail = newNode;
-    size++;
-}
-
-tem void Double_linked_list<datatype>::print() {
-    Node<datatype> *temp = head;
-    while (temp) {
-        std::cout << temp->data << " <-> ";
-        temp = temp->next;
-    }
-    std::cout << "null" << std::endl;
-}
-
 template class Linked_list<int>;
 template class Linked_list<double>;
 template class Linked_list<float>;
@@ -137,10 +81,3 @@ template class Linked_list<string>;
 template class Linked_list<long long>;
 template class Linked_list<long double>;
 
-template class Double_linked_list<int>;
-template class Double_linked_list<double>;
-template class Double_linked_list<float>;
-template class Double_linked_list<char>;
-template class Double_linked_list<string>;
-template class Double_linked_list<long long>;
-template class Double_linked_list<long double>;
