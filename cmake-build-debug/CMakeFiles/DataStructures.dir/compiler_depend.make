@@ -642,7 +642,11 @@ CMakeFiles/DataStructures.dir/Tree/Tree.cpp.o: /home/shared/DataStructures/Tree/
 
 CMakeFiles/DataStructures.dir/main.cpp.o: /home/shared/DataStructures/main.cpp \
   /home/shared/DataStructures/Array/Array.h \
-  /home/shared/DataStructures/Array/Array2D.h \
+  /home/shared/DataStructures/LinkedList/LinkedList.h \
+  /home/shared/DataStructures/Queue/Queue.h \
+  /home/shared/DataStructures/Stack/Stack.h \
+  /home/shared/DataStructures/Tree/Tree.h \
+  /home/shared/DataStructures/Headers/Data_Structures.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1056,6 +1060,8 @@ CMakeFiles/DataStructures.dir/Array/Array2D.cpp.o:
 /usr/include/bits/types/error_t.h:
 
 CMakeFiles/DataStructures.dir/Array/Array.cpp.o:
+
+/home/shared/DataStructures/Headers/Data_Structures.h:
 
 /usr/include/c++/14.2.1/exception:
 

@@ -1,70 +1,81 @@
 #include "LinkedList.h"
-
+#include <stdexcept>
+#define tem template<typename datatype>
 #include <iostream>
 #include <string>
 using std::string;
-template <typename datatype>
+tem
 Linked_list<datatype>::Linked_list() : head(nullptr) {}
 
-template <typename datatype>
-Linked_list<datatype>::~Linked_list() {
-    node<datatype> *current = head;
-    while (current != nullptr) {
-        node<datatype> *newnode = current->next;
-        delete[] current;
-        current = newnode;
+//tem
+//Linked_list<datatype>::~Linked_list() {
+
+//}
+
+tem
+void Linked_list<datatype>::append(datatype data) {
+    Node<datatype> *newNode = new Node<datatype>;
+    newNode->data = data;
+    newNode->next = nullptr;
+    if(head == nullptr) {
+        head = newNode;
+        return;
     }
+    
+    Node<datatype> *temp = head;
+    while (temp->next != nullptr) {
+        temp = temp->next;
+    }
+    temp->next = newNode;
 }
 
-template <typename datatype>
-void Linked_list<datatype>::print() {
-    node<datatype> *current = head;
-    std::cout << "[";
-    while (current != nullptr) {
-        node<datatype> *newnode = current->next;
-        std::cout << current->data << ", " << std::flush;
-        current = newnode;
-    }
-    std::cout << "]";
-}
-
-template <typename datatype>
-void Linked_list<datatype>::push_back(datatype data) {}
-
-template <typename datatype>
+tem
 void Linked_list<datatype>::push_front(datatype data) {
-    node<datatype> newnode;
-    newnode.data = data;
-    node<datatype> *current_head = head;
-    newnode.next = head;
-    head = &newnode;
+    Node<datatype> *newNode = new Node<datatype>;
+    newNode->data = data;
+    newNode->next = head;
+    head = newNode;
 }
 
-template <typename datatype>
-node<datatype> *Linked_list<datatype>::search_for(datatype data) {
-    node<datatype> *current = head;
-    node<datatype> *pos;
-    while (current != nullptr) {
-        pos = current;
-        node<datatype> *newnode = current->next;
-        if (current->data == data) {
-            return pos;
-        }
-    }
-    return nullptr;
-}
-template <typename datatype>
-void Linked_list<datatype>::insert_at(int position, datatype this_data) {}
-template <typename datatype>
-std::size_t Linked_list<datatype>::getsize() {
-    node<datatype> *current = head;
-    size_t size;
-    while (current != nullptr) {
+tem
+size_t Linked_list<datatype>::getsize() {
+    size_t size = 0;
+    Node<datatype> *temp = head;
+    while (temp->next) {
+        temp = temp->next;
         size++;
-        current = current->next;
     }
     return size;
 }
+tem
+void Linked_list<datatype>::print() {
+    Node<datatype> *temp = head;
+    while (temp) {
+        std::cout << temp->data << " -> ";
+        temp = temp->next;
+    }
+    std::cout << "null" << std::endl;
+}
+tem
+Node<datatype> *Linked_list<datatype>::search_for(datatype data) {
+    Node<datatype> *temp = head;
+    while (temp->next) {
+        if(temp->data == data) {
+            return temp;
+        }
+        temp = temp->next;
+    }
+    return nullptr;
+}
+
+tem
+void Linked_list<datatype>::insert_at(int position, datatype this_data) {
+    if (position < 0) {
+        std::out_of_range("out of range");
+    }
+    
+}
+
 template class Linked_list<int>;
 template class Linked_list<double>;
 template class Linked_list<float>;

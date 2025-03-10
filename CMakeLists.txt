@@ -3,11 +3,12 @@ project(DataStructures)
 
 set(CMAKE_CXX_STANDARD 20)
 
-include_directories(Array LinkedList Queue Stack Tree)
+target_include_directories(Array LinkedList Queue Stack Tree Headers)
 
 add_executable(DataStructures
-        main.cpp
+        Headers/Data_Structures.h
 
+        main.cpp
         Array/Array.h
         Array/Array.cpp
 

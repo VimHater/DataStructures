@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/shared/DataStructures/Array -I/home/shared/DataStructures/LinkedList -I/home/shared/DataStructures/Queue -I/home/shared/DataStructures/Stack -I/home/shared/DataStructures/Tree
+CXX_INCLUDES = -I/home/shared/DataStructures/Array -I/home/shared/DataStructures/LinkedList -I/home/shared/DataStructures/Queue -I/home/shared/DataStructures/Stack -I/home/shared/DataStructures/Tree -I/home/shared/DataStructures/Headers
 
 CXX_FLAGS = -std=gnu++20
 

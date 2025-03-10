@@ -1,0 +1,5 @@
+#include "../Array/Array.h"
+#include "../LinkedList/LinkedList.h"
+#include "../Stack/Stack.h"
+#include "../Queue/Queue.h"
+#include "../Tree/Tree.h"

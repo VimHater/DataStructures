@@ -1,9 +1,7 @@
-#include <iostream>
-#include "Array/Array.h"
-#include "Array/Array2D.h"
+#include "Headers/Data_Structures.h"
 int main() {
-    Array<int> data(10);
-    data.fill(10);
-    data.print();
-    int a[10];
+    Linked_list<int> list;
+    list.append(10);
+    list.append(10);
+    list.print();
 }

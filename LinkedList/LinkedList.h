@@ -2,23 +2,23 @@
 #include <cstddef>
 
 template <typename datatype>
-struct node {
+struct Node {
     datatype data;
-    node<datatype> *next;
+    Node<datatype> *next;
 };
 
 template <typename datatype>
 class Linked_list {
    public:
     Linked_list();
-    ~Linked_list();
-    void push_back(datatype data);
+    //~Linked_list();
+    void append(datatype data);
     void push_front(datatype data);
     std::size_t getsize();
-    node<datatype> *search_for(datatype data);
+    Node<datatype> *search_for(datatype data);
     void print();
     void insert_at(int position, datatype this_data);
 
    private:
-    node<datatype> *head;
+    Node<datatype> *head;
 };
