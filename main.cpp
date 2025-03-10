@@ -1,7 +1,7 @@
 #include "Headers/Data_Structures.h"
 #include "LinkedList/LinkedList.h"
 int main() {
-    Linked_list_with_tail<int> list;
+    Linked_list_t<int> list;
     while (true) {
         int n;
         std::cin >> n;
