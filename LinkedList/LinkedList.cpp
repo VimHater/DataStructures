@@ -7,10 +7,15 @@ using std::string;
 tem
 Linked_list<datatype>::Linked_list() : head(nullptr) {}
 
-//tem
-//Linked_list<datatype>::~Linked_list() {
-
-//}
+tem
+Linked_list<datatype>::~Linked_list() {
+    Node<datatype> *temp = head;
+    while (temp) {
+        Node<datatype> *nextNode = temp->next;
+        delete temp;
+        temp = nextNode;
+    }
+}
 
 tem
 void Linked_list<datatype>::append(datatype data) {
@@ -73,7 +78,70 @@ void Linked_list<datatype>::insert_at(int position, datatype this_data) {
     if (position < 0) {
         std::out_of_range("out of range");
     }
-    
+}
+
+tem
+Linked_list_with_tail<datatype>::Linked_list_with_tail() : head(nullptr) , tail(nullptr), size(0){}
+
+tem
+Linked_list_with_tail<datatype>::~Linked_list_with_tail() {
+    if(size == 0) {
+        delete head;
+        delete tail;
+    }
+    else {
+        Node<datatype> *front = head;
+        Node<datatype> *back = tail;
+        while (front && back && front != back->next) {
+            Node<datatype> *nextFront = front->next;
+            Node<datatype> *prevBack = back->prev;
+            if (front == back) {
+                delete front;
+                break;
+            }
+
+            delete front;
+            delete back;
+            
+            front = nextFront;
+            back = prevBack;
+        }
+
+        head = tail = nullptr;
+    }
+}
+
+tem
+void Linked_list_with_tail<datatype>::insert_at(int position, datatype this_data) {
+
+}
+
+tem
+void Linked_list_with_tail<datatype>::push_front(datatype data) {
+    Node<datatype> *newNode = new Node<datatype>;
+    newNode->data = data;
+    newNode->next = head;
+    head = newNode;
+    size++;
+}
+
+tem
+void Linked_list_with_tail<datatype>::append(datatype data) {
+    Node<datatype> *newNode = new Node<datatype>;
+    newNode->data = data;
+    newNode->next = tail;
+    tail = newNode;
+    size++;
+}
+
+tem
+void Linked_list_with_tail<datatype>::print() {
+    Node<datatype> *temp = head;
+    while (temp) {
+        std::cout << temp->data << " <-> ";
+        temp = temp->next;
+    }
+    std::cout << "null" << std::endl;
 }
 
 template class Linked_list<int>;
@@ -83,3 +151,13 @@ template class Linked_list<char>;
 template class Linked_list<string>;
 template class Linked_list<long long>;
 template class Linked_list<long double>;
+
+
+
+template class Linked_list_with_tail<int>;
+template class Linked_list_with_tail<double>;
+template class Linked_list_with_tail<float>;
+template class Linked_list_with_tail<char>;
+template class Linked_list_with_tail<string>;
+template class Linked_list_with_tail<long long>;
+template class Linked_list_with_tail<long double>;
